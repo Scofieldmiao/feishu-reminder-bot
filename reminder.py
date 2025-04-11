@@ -7,7 +7,7 @@ def send_feishu_reminder():
     msg = {
         "msg_type": "text",
         "content": {
-            "text": f"📢 每周提醒：今天是 {datetime.datetime.now().strftime('%Y-%m-%d')}，请记得更新工时信息！"
+            "text": f"📢 每周提醒：今天是 {datetime.datetime.now().strftime('%Y-%m-%d')}，请记得更新工时 👉 https://ps.nioint.com/nio/spaces/ps-activity/my-time-mgt"
         }
     }
     headers = {"Content-Type": "application/json"}
